@@ -1,41 +1,6 @@
-# WordRoot
-
-大学英语四级前缀单词学习页面。项目是纯前端应用，不需要安装依赖。
-
-## 环境要求
-
-- Node.js 18 或更新版本
-
-当前机器已验证可用：Node.js v24.11.1。
-
-## 启动
-
-```powershell
-node server.js
-```
-
-启动后访问：
-
-```text
-http://127.0.0.1:5501/
-```
-
-如果要换端口：
-
-```powershell
-$env:PORT=5600
-node server.js
-```
-
-也可以用 npm 启动；如果 PowerShell 拦截 `npm`，请使用 `npm.cmd`：
-
-```powershell
-npm.cmd start
-```
-
-## 说明
-
-不要直接双击打开 `index.html`。页面会读取 `data/cet4.json`，需要通过本地服务访问才能正常加载词库。
+# Vocabulary Reciting
+一个通过词前缀分类背诵四六级单词的网站。
+## 
 
 ## 扩展词库
 
